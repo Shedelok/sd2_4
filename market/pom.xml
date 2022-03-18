@@ -99,7 +99,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ru.akirakozov.sd.app.Application</mainClass>
+                            <mainClass>task4.market.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
