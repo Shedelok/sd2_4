@@ -1,14 +1,12 @@
-package ru.akirakozov.sd.app;
+package ru.akirakozov.sd.app
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.RequestMapping
 
 @RestController
-public class HelloController {
-
+class HelloController {
     @RequestMapping("/hello")
-    public String hello(String name) {
-        return "Hello, " + name + "!";
+    fun hello(name: String): String {
+        return "Hello, $name!"
     }
-
 }
